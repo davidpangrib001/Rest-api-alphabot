@@ -8,14 +8,14 @@ router.get('/checkkey', async (req, res) => {
     const apikey = req.query.apikey;
     if (apikey === undefined) return res.status(404).send({
         status: 404,
-        message: `Input Parameter apikey`
+        message: `Masukan Apikey Sebagai Parameter!`
     });
     const check = await cekKey(apikey);
     if (!check) return res.status(403).send({
         status: 403,
-        message: `apikey ${apikey} not found, please register first!`
+        message: `Apikey ${apikey} Tidak Valid, Mohon Untuk Mendaftar Terlebih Dahulu!`
     });
-    res.send({status: 200, apikey: apikey, response: 'Active'});
+    res.send({status: 200, apikey: apikey, response: 'Aktif :)'});
 });
 
 router.get('/ytplay', youtubePlay);

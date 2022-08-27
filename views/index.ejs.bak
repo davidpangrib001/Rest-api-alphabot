@@ -3,18 +3,18 @@
     <div class="home-content">        
         <div class="row contents">                     
             <div class="home-content-left">
-                <h3>Hello User,</h3>
+                <h3>Hai,</h3>
                 <h1>
-                    Welcome To Zekais-Api
+                    Selamat Datang Di Rest API One Botz
                 </h1>
                 <div class="buttons" data-aos="fade-up">
                     <a href="/docs" class="button stroke">
                         <span><i class="fas fa-folder"></i></span>
-                        Open Docs
+                        Ke Halaman Utama
                     </a>
-                    <a href="https://github.com/fawwaz37/nodejs-restapi" class="button stroke" target="__blank">
+                    <a href="https://wa.me/447578881250" class="button stroke" target="__blank">
                         <span><i class="fas fa-code"></i></span>
-                         Source Code
+                         Owner
                     </a>
                 </div>                                         
             </div>
